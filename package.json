@@ -1,0 +1,14 @@
+{
+  "name": "katbamakam",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for Katbamakam UAV situational-awareness platform",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:backend": "pnpm --filter @katbamakam/backend dev",
+    "dev:web": "pnpm --filter @katbamakam/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
